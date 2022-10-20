@@ -128,7 +128,6 @@ The [`/kustomize` folder](kustomize) contains instructions for customizing the d
 [![Architecture of
 microservices](./docs/img/architecture-diagram.png)](./docs/img/architecture-diagram.png)
 
-Find **Protocol Buffers Descriptions** at the [`./pb` directory](./pb).
 
 | Service                                              | Language      | Description                                                                                                                       |
 | ---------------------------------------------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------- |
