@@ -42,8 +42,8 @@ func init() {
 	log.Formatter = &logrus.JSONFormatter{
 		FieldMap: logrus.FieldMap{
 			logrus.FieldKeyTime:  "timestamp",
-			logrus.FieldKeyLevel: "severity",
 			logrus.FieldKeyMsg:   "message",
+			logrus.FieldKeyLevel: "severity",			
 		},
 		TimestampFormat: time.RFC3339Nano,
 	}
